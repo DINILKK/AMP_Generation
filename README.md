@@ -31,7 +31,7 @@ python main.py --work LatentDiffusion_nocondition --LatentDiffusion_batch_size 6
 # Step 3b: OR retrain from scratch (remove --pretrained flag)
 
 # Step 4: Generate sequences
-python main.py --work Generate \
+python main.py --work Generate 
   --Generate_VAE_model_path ./data/model_299_0.10607143263973876_0.0909070645059858_.pth
 ```
 
