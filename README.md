@@ -8,6 +8,15 @@ conda env create -f PepDiffusion.yaml
 conda activate pepdiff_env
 ```
 
+## Requirement
+python==3.8.18
+pytorch==1.13.1
+torchvision==0.14.1
+torchaudio==0.13.1
+transformer==4.33.2
+pandas==2.0.3
+nltk==3.8.1
+
 ## Pipeline (run in order)
 ```bash
 # Step 1: Encode your dataset to latent vectors
