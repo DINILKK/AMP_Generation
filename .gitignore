@@ -1,0 +1,22 @@
+# Large model files - VAE weights kept, diffusion weights excluded
+data/best_model.pth
+data/pos_data
+data/neg_data
+data/LatentDiffusion_Train
+data/LatentDiffusion_Val
+data/VAE_Train*
+data/VAE_Val
+
+# Generated latent vectors (regenerate by running pipeline)
+memory_single/
+memory_condition/
+pos_geneate/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Checkpoints generated during training
+model_mulgpu*/
