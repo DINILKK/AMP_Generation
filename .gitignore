@@ -8,15 +8,17 @@ data/VAE_Train*
 data/VAE_Val
 
 # Generated latent vectors (regenerate by running pipeline)
+memory/
 memory_single/
 memory_condition/
+model_finetuned/
+model_mulgpu*/
 pos_geneate/
-
-# Python
+Filter/params/pos_data
+Filter/params/neg_data
+Filter/params/neg_data_10
 __pycache__/
 *.pyc
-*.pyo
-.env
 
 # Checkpoints generated during training
 model_mulgpu*/
